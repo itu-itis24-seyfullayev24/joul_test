@@ -1,0 +1,52 @@
+.aboutUs {
+  width: 100%;
+  padding: 3rem;
+  margin-top: 10rem;
+  text-align: center;
+}
+.aboutUs p {
+  margin-top: 4rem;
+  color: black;
+}
+.main {
+  height: 100%;
+}
+.team {
+  margin-top: 5rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.team h1 {
+  font-size: 3rem;
+}
+.teamMembers {
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+.teamMember {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.teamMember h1 {
+  font-size: 1.5rem;
+  font-family: Arial;
+}
+.teamMemberImage {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+}
+@media screen and (max-width: 768px) {
+  .teamMembers {
+    flex-direction: column;
+  }
+}

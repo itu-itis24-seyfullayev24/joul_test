@@ -1,0 +1,149 @@
+.nav {
+  z-index: 2;
+  background: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  flex-direction: row;
+}
+.navScroll {
+  background: #28cb8b;
+  box-shadow: 0 0 5px 2px #b7b7b7;
+  z-index: 2;
+  transition: 0.5s;
+}
+.nav > div {
+  width: 50%;
+  display: flex;
+  font-family: Arial;
+  align-items: center;
+}
+.leftPartNav {
+  padding: 2rem;
+}
+.leftPartNav h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+#logo {
+  width: 7rem;
+  height: auto;
+}
+.navLiScroll {
+  transition: 0.5;
+  color: white;
+}
+.navButtonScroll {
+  cursor: pointer;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  color: #28cb8b;
+  padding: 1rem;
+}
+
+.rightPartNav ul {
+  align-items: center;
+  margin-left: auto;
+  margin-right: 5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  list-style: none;
+}
+.burgerMenu {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.burgerLine {
+  border-radius: 5px;
+  width: 30px;
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+}
+.navButton {
+  cursor: pointer;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #28cb8b;
+  color: white;
+  padding: 1rem;
+}
+.burgerMenuBlack {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.burgerLineBlack {
+  border-radius: 5px;
+  width: 30px;
+  height: 3px;
+  background-color: black;
+}
+@media screen and (max-width: 768px) {
+  .navLiScroolMob {
+    color: white;
+  }
+  .ulOpen {
+    transition: 0.5s ease-in;
+    flex-direction: column;
+    width: 65%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    top: 7rem;
+    padding: 4rem 0 0 0;
+    right: 0;
+    margin-right: 0;
+  }
+  .ulClose {
+    transform: translate(100%);
+    transition: 0.5s ease-in;
+    flex-direction: column;
+    background-color: #05668d;
+    width: 65%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    top: 7rem;
+    padding: 4rem 0 0 0;
+    right: 0;
+    margin-right: 0;
+  }
+  .rightPartNav ul {
+    flex-direction: column;
+    background-color: #05668d;
+    width: 65%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    top: 7rem;
+    padding: 4rem 0 0 0;
+    right: 0;
+    margin-right: 0;
+  }
+  .rightPartNav ul li {
+    font-size: 1.5rem;
+  }
+
+  .burgerMenuBlack {
+    margin-left: auto;
+    margin-right: 3rem;
+    display: flex;
+  }
+  .burgerMenu {
+    margin-left: auto;
+    margin-right: 3rem;
+    display: flex;
+  }
+}

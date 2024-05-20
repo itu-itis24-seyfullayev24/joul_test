@@ -1,95 +1,177 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Header from "./Header";
+import Top from "./img/top.svg";
+import blockFirst from "./img/blockFirst.svg";
+import contactUs from "./img/contactUs.svg";
+import apple from "./img/apple.png";
+import android from "./img/android.svg";
+import { RiMoneyDollarCircleLine } from "react-icons/ri";
+import Footer from "./Footer";
+import localFont from "next/font/local";
+const antithesis = localFont({ src: "./fonts/Antithesis.otf" });
+
+const roboto = localFont({ src: "./fonts/Roboto-Regular.ttf" });
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+      <Header />
+      <div className={styles.topPage}>
+        <div className={styles.topPageLeft}>
+          <h1 className={antithesis.className}>
+            Lorem ipsum dolor sit amet,
+            <span className={styles.spanForTopText}>consectetur</span> elit
+          </h1>
+        </div>
+        <div className={styles.topPageRight}>
+          <Image src={Top} alt="Top" className={styles.topImage} />
         </div>
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div className={styles.tags}>
+        <div className={styles.tag}>
+          <div className={styles.tagIcon}>
+            <div className={styles.tagBlockIcon}></div>
+            <RiMoneyDollarCircleLine className={styles.tagIcons} />
+          </div>
+          <h2>Lorem Ipsum Dolor sit amet</h2>
+          <p>Lorem ipsum dolor sit amet sit amet sit amet.</p>
+        </div>
+        <div className={styles.tag}>
+          {" "}
+          <div className={styles.tagIcon}>
+            <div className={styles.tagBlockIcon}></div>
+            <RiMoneyDollarCircleLine className={styles.tagIcons} />
+          </div>
+          <h2>Lorem Ipsum Dolor sit amet</h2>
+          <p>Lorem ipsum dolor sit amet sit amet sit amet.</p>
+        </div>
+        <div className={styles.tag}>
+          {" "}
+          <div className={styles.tagIcon}>
+            <div className={styles.tagBlockIcon}></div>
+            <RiMoneyDollarCircleLine className={styles.tagIcons} />
+          </div>
+          <h2>Lorem Ipsum Dolor sit amet</h2>
+          <p>Lorem ipsum dolor sit amet sit amet sit amet.</p>
+        </div>
       </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      <div className={styles.blocksInfo}>
+        <div className={styles.blockInfo}>
+          <div className={styles.blockInfoRight}>
+            <Image src={blockFirst} className={styles.blockImage} />
+          </div>
+          <div className={styles.blockInfoLeft}>
+            <h1>Lorem ipsum dolor amet sit amet sit </h1>
+            <p>
+              Fugiat eiusmod proident consectetur consectetur in quis laboris
+              laboris. Occaecat ea cillum incididunt ex ad commodo Lorem.
+              Pariatur amet ipsum labore commodo ea eu culpa quis quis. Velit
+              proident amet eiusmod non. Commodo ea eu adipisicing ex labore
+              duis mollit do veniam deserunt.
+            </p>
+          </div>
+        </div>
+        <div className={styles.blockInfo}>
+          <div className={styles.blockInfoRight}>
+            {" "}
+            <Image src={blockFirst} className={styles.blockImage} />
+          </div>
+          <div className={styles.blockInfoLeft}>
+            {" "}
+            <h1>Lorem ipsum dolor amet sit amet sit </h1>
+            <p>
+              Fugiat eiusmod proident consectetur consectetur in quis laboris
+              laboris. Occaecat ea cillum incididunt ex ad commodo Lorem.
+              Pariatur amet ipsum labore commodo ea eu culpa quis quis. Velit
+              proident amet eiusmod non. Commodo ea eu adipisicing ex labore
+              duis mollit do veniam deserunt.
+            </p>
+          </div>
+        </div>
       </div>
+      <div className={styles.cardsInfo}>
+        <h1>Caring is the new marketing</h1>
+        <div className={styles.cardsMain}>
+          <div className={styles.cardInfo}>
+            <div className={styles.cardText}>
+              <p>Creating Streamlined Safeguarding Processes with OneRen</p>
+            </div>
+          </div>
+          <div className={styles.cardInfo}>
+            <div className={styles.cardText}>
+              <p>
+                What are your safeguarding responsibilities and how can you
+                manage them?
+              </p>
+            </div>
+          </div>
+          <div className={styles.cardInfo}>
+            <div className={styles.cardText}>
+              <p>Revamping the Membership Model with Triathlon Australia</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={styles.contactUs}>
+        <div className={styles.contactUsForm}>
+          <h1 className={antithesis.className}>Əlaqə</h1>
+          <form>
+            <div className={styles.userInfoContactUs}>
+              <input
+                className={styles.inputNameContactUs}
+                placeholder="Full Name"
+                type="text"
+                name="user_name"
+              />
+              <input
+                className={styles.inputEmailContactUs}
+                placeholder="Email"
+                type="email"
+                name="user_email"
+              />
+            </div>
+            <input
+              className={styles.inputContactUs}
+              placeholder="Subject"
+              type="text"
+              name="subject"
+            />
+            <textarea
+              className={styles.inputMessageContactUs}
+              placeholder="Message"
+              name="message"
+            />
+            <div className={styles.buttonDiv}>
+              {" "}
+              <button id={styles.button}>Submit</button>
+            </div>
+          </form>
+        </div>
+        <div className={styles.contactUsImage}>
+          <Image src={contactUs} className={styles.imageContact} />
+        </div>
+      </div>
+      <div className={styles.downloadApp}>
+        <h1 className={antithesis.className}>Proqram Təminatını yüklə</h1>
+        <p></p>
+        <div className={styles.downloadAppForm}>
+          <div className={styles.downloadAppButtons}>
+            <span>
+              <Image src={android} className={styles.phoneLogo} />
+              <button>Avaliable in Android</button>
+            </span>
+            <span>
+              <Image src={apple} className={styles.phoneLogo} />
+              <button>Avaliable in App Store</button>
+            </span>
+          </div>
+          <div className={styles.downloadAppImage}>
+            <Image src={blockFirst} className={styles.imageDownload} />
+          </div>
+        </div>
+      </div>
+      <Footer />
     </main>
   );
 }
