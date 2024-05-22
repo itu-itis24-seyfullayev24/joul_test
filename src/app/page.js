@@ -11,8 +11,6 @@ import Footer from "./Footer";
 import localFont from "next/font/local";
 const antithesis = localFont({ src: "./fonts/Antithesis.otf" });
 
-const roboto = localFont({ src: "./fonts/Roboto-Regular.ttf" });
-
 export default function Home() {
   return (
     <main className={styles.main}>
