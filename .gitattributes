@@ -1,11 +1,4 @@
-.gitignore
-.gitattributes
-*tsx filter=lfs diff=lfs merge=lfs -text
-*js filter=lfs diff=lfs merge=lfs -text
-*jsx filter=lfs diff=lfs merge=lfs -text
-*jpg filter=lfs diff=lfs merge=lfs -text
-*png filter=lfs diff=lfs merge=lfs -text
-*css filter=lfs diff=lfs merge=lfs -text
-*json filter=lfs diff=lfs merge=lfs -text
-*node filter=lfs diff=lfs merge=lfs -text
+version https://git-lfs.github.com/spec/v1
+oid sha256:f81dea5cb617853f5f0c31d555293e1dfce6750dd15985b2e853f0e2c59a7e66
+size 392
 *.node filter=lfs diff=lfs merge=lfs -text
