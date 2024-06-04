@@ -1,17 +1,3 @@
-import { Inter } from "next/font/google";
-import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
-
-export const metadata = {
-  title: "Joul",
-  description: "Joul",
-};
-
-export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
-  );
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:55aa737cd6b22e20f33eb46294a4a2220ef908bd5b511b0ca5c63a15aec619bf
+size 343

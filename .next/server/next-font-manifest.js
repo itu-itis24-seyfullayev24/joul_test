@@ -1,1 +1,3 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/ravan_seyfullayev/Desktop/joul/src/app/page\":[\"static/media/7765c410484f5dd1-s.p.otf\",\"static/media/7765c410484f5dd1-s.p.otf\"],\"/Users/ravan_seyfullayev/Desktop/joul/src/app/layout\":[\"static/media/c9a5bc6a7c948fb0-s.p.woff2\"],\"/Users/ravan_seyfullayev/Desktop/joul/src/app/about/page\":[\"static/media/7765c410484f5dd1-s.p.otf\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
+version https://git-lfs.github.com/spec/v1
+oid sha256:53b342636aee141ad5eb841ab34514c946145a2533fb912a0313c0fbe6ed2e25
+size 460
