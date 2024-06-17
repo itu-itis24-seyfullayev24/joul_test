@@ -1,1 +1,0 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/ravan_seyfullayev/Desktop/joul/src/app/page\":[\"static/media/7765c410484f5dd1-s.p.otf\",\"static/media/6e77a69850838bf4-s.p.ttf\"],\"/Users/ravan_seyfullayev/Desktop/joul/src/app/layout\":[\"static/media/c9a5bc6a7c948fb0-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
