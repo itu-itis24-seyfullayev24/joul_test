@@ -5,10 +5,8 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import LogoDark from "./img/logoDark.png";
 import LogoWhite from "./img/logoWhite.png";
-import Az from "./img/az.png";
-import { Link } from "react-scroll";
 import { useRef } from "react";
-
+import Link from "next/link";
 function Header({ scrollToDiv, scrollToDiv2 }) {
   const [showMenu, setShowMenu] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -49,7 +47,7 @@ function Header({ scrollToDiv, scrollToDiv2 }) {
         </div>
         <div className={styles.rightPartNav}>
           <ul className={menuOpen ? styles.ulOpen : styles.ulClose}>
-            <Link to="" smooth duration={500}>
+            <Link smooth duration={500} href="/about">
               <li
                 onClick={scrollToDiv}
                 className={
