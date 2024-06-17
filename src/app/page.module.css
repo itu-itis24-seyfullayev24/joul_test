@@ -1,7 +1,7 @@
 .topPage {
-  margin-top: 7rem;
+  margin-top: 9rem;
   background-color: #f5f7fa;
-  height: 35rem;
+  height: 45rem;
   padding: 4rem;
   display: flex;
   justify-content: center;
@@ -24,9 +24,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 4rem;
+  flex-direction: column;
   margin-top: 4rem;
   width: 100%;
+}
+.downloadIconsSpan {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+.downloadIconsText h1 {
+  font-weight: 500;
+  color: black;
 }
 .topImage {
   height: 24rem;
@@ -85,6 +94,34 @@
   margin-top: 1.5rem;
   font-family: Arial;
   font-size: 1rem;
+}
+.tagText {
+  position: relative;
+  width: 100%;
+  padding: 0rem 10rem 0rem 10rem;
+}
+.tagTextHighlight {
+  width: 3rem;
+  border-radius: 10px;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(40, 203, 139, 1);
+  left: 5rem;
+}
+
+.tagTextHighlight:before {
+  content: "";
+  border-radius: 10px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(40, 203, 139, 0.3);
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: -1;
+}
+.tagText p {
+  font-size: 1.5rem;
 }
 .tagIcon {
   position: relative;
@@ -163,49 +200,23 @@
   font-weight: 800;
 }
 .cardInfo {
-  height: 20rem;
+  border: 1px solid black;
+  padding: 5rem 2rem 5rem 2rem;
+  height: auto;
   width: 20rem;
   border-radius: 10px;
-  background: url(./img/first.png);
-  background-position: center;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  position: relative;
 }
-.cardInfo:nth-child(1) {
-  background: url(./img/first.png);
-  background-position: center;
-  background-size: 100%;
-  background-repeat: no-repeat;
+.cardInfoImage {
+  margin-top: 4rem;
+  width: 90%;
+  height: auto;
 }
-.cardInfo:nth-child(2) {
-  background: url(./img/second.png);
-  background-position: center;
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-.cardInfo:nth-child(3) {
-  background: url(./img/third.png);
-  background-position: center;
-  background-size: 100%;
-  background-repeat: no-repeat;
+.cardInfoImageDiv {
+  height: 30%;
 }
 .cardText {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  padding: 1rem;
-  border-radius: 10px;
-  position: absolute;
-  bottom: -5rem;
-  width: 80%;
-  left: 2rem;
-  height: 8rem;
-  z-index: 1;
-  -webkit-box-shadow: 0 0 5px 2px #e2e2e2;
-  -moz-box-shadow: 0 0 5px 2px #e2e2e2;
-  box-shadow: 0 0 5px 2px #e2e2e2;
-  background-color: #ffffff;
+  margin-top: 3rem;
+  height: 30%;
 }
 .cardText p {
   font-family: Arial;
@@ -285,6 +296,26 @@
 }
 
 @media screen and (max-width: 768px) {
+  .topPage {
+    padding: 0;
+    height: 50rem;
+  }
+
+  .tagText {
+    padding: 0 5rem 0 5rem;
+  }
+  .downloadIconsSpan {
+    margin-top: 5rem;
+    flex-direction: column;
+  }
+  .phoneLogo {
+    width: 12rem;
+    height: 4rem;
+  }
+  .tagTextHighlight {
+    left: 1rem;
+    width: 2.5rem;
+  }
   .userInfoContactUs {
     flex-direction: column;
   }
