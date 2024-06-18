@@ -5,6 +5,8 @@ import { FaInstagram } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import localFont from "next/font/local";
+import Image from "next/image";
+import logo from "./img/logoDark.png";
 const antithesis = localFont({ src: "./fonts/Antithesis.otf" });
 
 function Footer() {
@@ -12,7 +14,7 @@ function Footer() {
     <div className={styles.footer}>
       <div className={styles.leftFooter}>
         <div className={styles.logo}>
-          <h1 className={antithesis.className}>Joul</h1>
+          <Image src={logo} className={styles.logoImage} />
         </div>
         <div className={styles.copyright}>
           <p>&copy; 2024 Joul. All rights reserved</p>

@@ -26,7 +26,7 @@
   align-items: center;
 }
 .leftPartNav {
-  padding: 3.5rem;
+  padding: 1rem 0 0 6.5rem;
 }
 .leftPartNav h1 {
   font-family: "Courier New", Courier, monospace;
@@ -99,6 +99,9 @@
   background-color: black;
 }
 @media screen and (max-width: 768px) {
+  .leftPartNav {
+    padding: 1rem 0 0 2.5rem;
+  }
   .navLiScroolMob {
     color: white;
   }

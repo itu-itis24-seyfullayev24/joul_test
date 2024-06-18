@@ -22,7 +22,6 @@
 }
 .downloadIcons {
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-direction: column;
   margin-top: 4rem;
@@ -228,7 +227,7 @@
   margin-top: 15rem;
   background-color: #f5f7fa;
   width: 100%;
-  height: 30rem;
+  height: 40rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -248,8 +247,8 @@
 }
 .contactUsForm textarea {
   resize: none;
-  font-size: 1rem;
-  padding: 0.5rem;
+  font-size: 1.1rem;
+  padding: 0.8rem;
   height: 8rem;
   border-radius: 10px;
   border: none;
@@ -260,8 +259,8 @@
   background: rgba(40, 203, 139);
   border: none;
   color: white;
-  padding: 0.5rem;
-  font-size: 1rem;
+  padding: 0.8rem;
+  font-size: 1.1rem;
   border-radius: 10px;
   transition: box-shadow 0.3s, transform 0.3s;
 }
@@ -278,10 +277,10 @@
   flex-direction: column;
 }
 .contactUsForm input {
-  padding: 0.5rem;
+  padding: 0.8rem;
   border-radius: 10px;
   border: none;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .userInfoContactUs {
   display: flex;

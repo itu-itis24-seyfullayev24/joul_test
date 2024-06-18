@@ -2,8 +2,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Header from "./Header";
-import Top from "./img/top.svg";
-import blockFirst from "./img/blockFirst.svg";
+
 import contactUs from "./img/contactUs.svg";
 import apple from "./img/apple.svg";
 import android from "./img/android.svg";
@@ -57,7 +56,7 @@ export default function Home() {
       />
       <div className={styles.topPage}>
         <div className={styles.topPageLeft}>
-          <div style={{ textAlign: "center" }}>
+          <div>
             <h1 className={antithesis.className} style={{ fontWeight: "300" }}>
               Making it super easy to become{" "}
               <span className={styles.spanForTopText}>EV Charge</span> Point

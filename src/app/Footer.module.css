@@ -43,7 +43,10 @@
   align-items: center;
   width: 50%;
 }
-
+.logoImage {
+  width: 10rem;
+  height: auto;
+}
 @media screen and (max-width: 768px) {
   .footer {
     padding: 1rem;
