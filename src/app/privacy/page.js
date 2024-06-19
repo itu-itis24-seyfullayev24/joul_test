@@ -50,7 +50,7 @@ function Privacy() {
       </div>
       <div className={styles.privacyText}>
         <h1 className={tektur.className} style={{ fontWeight: "300" }}>
-          Privacy and Policy
+          Privacy Policy
         </h1>
         <Dropdown
           options={options}
