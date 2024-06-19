@@ -6,8 +6,7 @@ import Image from "next/image";
 import LogoDark from "./img/logoDark.png";
 import LogoWhite from "./img/logoWhite.png";
 import { useRef } from "react";
-
-function Header({ scrollToDiv, scrollToDiv2 }) {
+function Header({ scrollToDiv, scrollToDiv2, visibility }) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [LogoLink, setLogoLink] = useState(LogoWhite);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -53,6 +52,7 @@ function Header({ scrollToDiv, scrollToDiv2 }) {
               }
               style={{
                 cursor: "pointer",
+                display: visibility,
               }}
             >
               Our Value
@@ -65,6 +65,7 @@ function Header({ scrollToDiv, scrollToDiv2 }) {
               }
               style={{
                 cursor: "pointer",
+                display: visibility,
               }}
             >
               How it works

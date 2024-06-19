@@ -53,6 +53,7 @@ export default function Home() {
       <Header
         scrollToDiv={scrollToDivFunction}
         scrollToDiv2={scrollToDivFunction2}
+        visibility={"block"}
       />
       <div className={styles.topPage}>
         <div className={styles.topPageLeft}>
