@@ -57,10 +57,20 @@
   text-decoration: underline;
   cursor: pointer;
 }
+.socialIcon {
+  font-size: 2rem;
+  color: rgb(169, 169, 169);
+}
+.socialIcon:hover {
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
 @media screen and (max-width: 768px) {
   .footer {
-    padding: 1rem;
+    padding: 1.5rem;
     flex-direction: column;
+    gap: 2rem;
   }
   .leftFooter {
     width: 100%;
@@ -70,16 +80,19 @@
     margin-bottom: 1rem;
     width: 100%;
   }
-  .copyright p {
-    width: auto;
+  .copyrightP {
+    font-size: 1rem;
   }
   .copyright {
     text-align: center;
-    width: 50%;
+    width: 60%;
     padding: 0 0 0 2rem;
   }
+  .logoImage {
+    width: 7rem;
+  }
   .logo {
-    width: 50%;
+    width: 40%;
     display: flex;
     justify-content: center;
   }

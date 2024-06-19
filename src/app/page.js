@@ -2,7 +2,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Header from "./Header";
-
 import contactUs from "./img/contactUs.svg";
 import apple from "./img/apple.svg";
 import android from "./img/android.svg";
@@ -15,7 +14,6 @@ import { FaChartPie } from "react-icons/fa";
 import Footer from "./Footer";
 import localFont from "next/font/local";
 import EvCharge from "./img/ev_charge.png";
-import imgSrc from "./img/Unknown.jpeg";
 import first from "./img/first.png";
 import second from "./img/second.png";
 import third from "./img/third.png";
@@ -167,7 +165,7 @@ export default function Home() {
             </div>
             <div className={styles.cardInfoImageDiv}>
               {" "}
-              <Image src={first} className={styles.cardInfoImage} />
+              <Image src={second} className={styles.cardInfoImage} />
             </div>
           </div>
           <div className={styles.cardInfo}>
@@ -180,14 +178,16 @@ export default function Home() {
             </div>
             <div className={styles.cardInfoImageDiv}>
               {" "}
-              <Image src={first} className={styles.cardInfoImage} />
+              <Image src={third} className={styles.cardInfoImage} />
             </div>
           </div>
         </div>
       </div>
       <div className={styles.contactUs}>
         <div className={styles.contactUsForm}>
-          <h1 className={antithesis.className}>Əlaqə</h1>
+          <h1 className={antithesis.className} style={{ fontWeight: "500" }}>
+            Contact Us
+          </h1>
           <form>
             <div className={styles.userInfoContactUs}>
               <input

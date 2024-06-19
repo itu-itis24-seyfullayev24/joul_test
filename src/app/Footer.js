@@ -27,7 +27,12 @@ function Footer() {
         </div>
       </div>
       <div className={styles.rightFooter}>
-        <div className={styles.socialMedia}></div>
+        <div className={styles.socialMedia}>
+          <FaFacebook className={styles.socialIcon} />
+          <FaInstagram className={styles.socialIcon} />
+          <FaTiktok className={styles.socialIcon} />
+          <FaLinkedin className={styles.socialIcon} />
+        </div>
       </div>
     </div>
   );
