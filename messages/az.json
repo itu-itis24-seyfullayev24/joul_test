@@ -1,0 +1,28 @@
+{
+  "Main": {
+    "titleFirst": "Artıq elektromobil",
+    "titleSecond": "şarj stansiyalarının",
+    "titleThird": "idarəetməsini çox sadələşdirdik",
+    "tagMainText": "Joul restoran şəbəkələri, biznes mərkəzləri, bələdiyyələr və dövlət qurumları, öz şarj stansiyalarına sahib olmaq istəyən bir çox digər müəssisələr üçün stansiyaların aktivasiyasını və idarəetmə prosesini olduqca sadələşdirir:",
+    "tagFirst": "Qiymətə tam nəzarət",
+    "tagSecond": "Cihazların idarəetmə paneli",
+    "tagThird": "Müxtəlif ödəmə üsulları",
+    "tagFourth": "Sürücülər üçün mobil tətbiq",
+    "tagFifth": "İstənilən cihazla uyğunluq",
+    "tagSixth": "Datanın təhlili üçün imkanlar",
+    "threeSteps": "Üç sadə addım",
+    "blockFirst": "Joul proqram təminatının tərəfdaş şirkət tərəfindən inteqrasiyası və şarj stansiyalarının sistemə qoşulması",
+    "blockSecond": "Mobil tətbiqdə sürücü istədiyi şarj operatorunun stansiyasını tapır",
+    "blockThird": "Mobil tətbiqdə sürücü şarj prosesini başlada, dayandıra və ödəmə edə bilir.",
+    "contactUs": "Hər hansı sual və ya sorğularınız üçün müracəit edə bilərsiniz"
+  },
+  "Header": {
+    "howItWorks": "Necə işləyir",
+    "ourValue": "Dəyərimiz",
+    "getDemo": "Demonu əldə et"
+  },
+  "Footer": {
+    "copyright": "2024 Joul. Bütün hüquqlar qorunur",
+    "privacyPolicy": "Məxfilik Siyasəti"
+  }
+}

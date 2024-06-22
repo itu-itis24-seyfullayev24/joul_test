@@ -1,0 +1,30 @@
+{
+  "Main": {
+    "titleFirst": "Making it super easy to become",
+    "titleSecond": "EV Charge",
+    "titleThird": "Point Operator",
+    "tagMainText": "We enable CPOs or those wishing to become one such as restaurant chains, retail stores, business centers, municipalities etc. to activate and manage chargers as easy & fast as handling home appliances",
+    "tagFirst": "Full control over pricing & billing",
+    "tagSecond": "Device control panel",
+    "tagThird": "Pre-integrated payments",
+    "tagFourth": "Mobile app for EV drivers",
+    "tagFifth": "Hardware agnostic",
+    "tagSixth": "Data analytics tools",
+    "threeSteps": "Three simple steps",
+    "blockFirst": "Integration of Joul & activation of charging stations by the CPO, using our software",
+    "blockSecond": "On the mobile app EV driver locates the CPO whose station he/she wants to use",
+    "blockThird": "Charging is activated / deactivated and payments made on the app.",
+    "contactUs": "Contact us for any suggestions",
+    "copyright": "© 2024 Joul. All rights reserved",
+    "privacyPolicy": "Privacy Policy"
+  },
+  "Header": {
+    "howItWorks": "How it works",
+    "ourValue": "Our value",
+    "getDemo": "Request Demo"
+  },
+  "Footer": {
+    "copyright": "2024 Joul. All rights reserved",
+    "privacyPolicy": "Privacy Policy"
+  }
+}
